@@ -78,7 +78,7 @@ body {
 
 /* Nav */
 .nav {
-  height:100vh;
+  height: 100vh;
   background-image: url(https://res.cloudinary.com/drxxkpnvq/image/upload/v1650999230/nav_oxtm6a.jpg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -91,4 +91,26 @@ body {
   text-align: center;
   color: red;
   font-size: var(--font-size-home);
+}
+
+/* Contacto */
+.contacto {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.contacto a svg {
+  width: 100px;
+}
+.contacto ul {
+  display: grid;
+  place-content: center;
+}
+.contacto ul li {
+  font-size: 50px;
+}
+.contacto h2 {
+  --font-size-home: clamp(5.5rem, 10vw, 7rem);
+  font-size: var(--font-size-home);
+  display: grid;
+  place-content: center;
 }
