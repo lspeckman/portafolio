@@ -114,3 +114,35 @@ body {
   display: grid;
   place-content: center;
 }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+/* Proyectos */
+.proyectos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
+}
+.proyectos h2{
+  
+}
+.proyectos p:first-of-type{
+  background: blue;
+}
+.proyectos p:last-of-type{
+    background: red;
+}
+/* .proyectos img{
+} */
+.proyectos .imagenes{
+  
+}
